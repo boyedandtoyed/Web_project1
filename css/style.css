@@ -11,15 +11,15 @@ body{
 
 .container
 {
-    width: 100%;
-    max-width: 35vw;
+    width: 35vw;
+    min-width: 350px;
     margin: 3em auto;
 }
 .container #title, #description
 {
     width: 100%;
     text-align: center;
-    
+    color: #fff;
 }
 .container #description{
     margin: 1em 0;
