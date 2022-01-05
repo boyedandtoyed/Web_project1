@@ -36,7 +36,7 @@ form input, select{
     padding: .5em;
 }
 
-form label{
+form label, form p{
     margin-bottom: 0.5em;
+    font-size: larger;
 }
-
