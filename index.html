@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
 
     Hello Camper!
 
@@ -21,51 +22,54 @@
     - The freeCodeCamp Team
 
     -->
-    <div class="container">
-      <h1 id="title">freeCodeCamp Survey Form</h1>
-      <p id="description">Thank you for taking the time to help us improve the platform </p>
+  <div class="container">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
 
-      <form id="survey-form">
-        <label for="name" id="name-label">Name</label>
-        <input id="name" type="text" placeholder="Please Enter your Name">
-        <label for="email" id="email-label" >Email</label>
-        <input id="email" type="email" placeholder="Please Enter your Email">
-        <label for="number" id="number-label" >Number</label>
-        <input type="number" id="number" min="10" max="120" placeholder="Age">
-        <select id="dropdown" placeholder="Current Role">
-          <option value="Student">Student</option>
-          <option value="Employed">Employed</option>
-          <option value="Unemployed-no-job">Unemployed not seeking job</option>
-          <option value="Unemployed-want-Job">Unemployed seeking job</option>
-          <option value="Prefer-not-to-say">Prefer not to say</option>
-        </select>
-        
-        <p>Would you recommend our website?</p>
-        <input id="radio1" type="radio" name="recommend-radio">
-        <label for="radio1">Totally!</label>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Please Enter your Name">
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Please Enter your Email">
+      <label for="number" id="number-label">Number</label>
+      <input type="number" id="number" min="10" max="120" placeholder="Age">
+      <select id="dropdown" placeholder="Current Role">
+        <option value="Student">Student</option>
+        <option value="Employed">Employed</option>
+        <option value="Unemployed-no-job">Unemployed not seeking job</option>
+        <option value="Unemployed-want-Job">Unemployed seeking job</option>
+        <option value="Prefer-not-to-say">Prefer not to say</option>
+      </select>
+
+      <p>Would you recommend our website?</p>
+      <label for="radio1">Totally! <input id="radio1" type="radio" name="recommend-radio">
+      </label>
+      <label for="radio2">Maybe
         <input id="radio2" type="radio" name="recommend-radio">
-        <label for="radio2">Maybe</label>
-        <input id="radio3" type="radio" name="recommend-radio">
-        <label for="radio3">Not really</label>
 
-        <p>What's your favorite color?</p>
-        <input id="orange" type="checkbox" name="fav-color" value="orange">
-        <label for="orange">Orange</label>
-        <input id="green" type="checkbox" name="fav-color" value="green">
-        <label for="green">Green</label>
-        <input id="pink" type="checkbox" name="fav-color" value="pink">
-        <label for="pink">Pink</label>
-        <input id="purple" type="checkbox" name="fav-color" value="purple">
-        <label for="purple">Purple</label>
+      </label>
 
-        <p>Comments or suggestions</p>
-        <textarea placeholder="Please add comments or suggestions">
-          
+      <label for="radio3">Not really<input id="radio3" type="radio" name="recommend-radio"></label>
+
+      <p>What's your favorite color?</p>
+      <input id="orange" type="checkbox" name="fav-color" value="orange">
+      <label for="orange">Orange</label>
+      <input id="green" type="checkbox" name="fav-color" value="green">
+      <label for="green">Green</label>
+      <input id="pink" type="checkbox" name="fav-color" value="pink">
+      <label for="pink">Pink</label>
+      <input id="purple" type="checkbox" name="fav-color" value="purple">
+      <label for="purple">Purple</label>
+
+      <p>Comments or suggestions</p>
+      <textarea placeholder="Please add comments or suggestions">
+
         </textarea>
-    <button id="submit">Submit</button>
-  </form>
-    </div>
+      <button id="submit">Submit</button>
+    </form>
+  </div>
 
-    <script  src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
