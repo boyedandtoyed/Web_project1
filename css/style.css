@@ -21,3 +21,9 @@
 .container #description{
     margin: 1em 0;
 }
+form{
+    padding:1.2em;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+}
