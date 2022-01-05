@@ -31,8 +31,12 @@ form{
     color: #ddd;
 }
 
-form input{
+form input, select{
     margin: 0 0 1.2em 0;
     padding: .5em;
+}
+
+form label{
+    margin-bottom: 0.5em;
 }
 
